@@ -1,10 +1,11 @@
 import "./App.css";
 import React from "react";
+import Headbar from "./Components/Headbar/Headbar";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>test react</h1>
+      <Headbar />
     </div>
   );
 };

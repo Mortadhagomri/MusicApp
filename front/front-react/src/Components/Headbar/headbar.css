@@ -1,0 +1,99 @@
+.headbar {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 5rem;
+  justify-content: space-between;
+  z-index: 6;
+  background-color: #1d2434;
+}
+.headbar_logo {
+  color: rgb(0, 0, 0);
+  background-color: none;
+  color: white;
+  font-weight: bolder;
+  align-self: center;
+}
+.search__container {
+  width: 30%;
+  padding-top: 2px;
+  align-self: center;
+}
+.search__input {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: white;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+.search__input:hover,
+.search__input:focus {
+  color: white;
+  background-color: transparent;
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #bd43c6;
+  border-radius: 0;
+  background-position: 100% center;
+}
+.menu__container {
+  align-self: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 10rem;
+  margin: 0;
+  height: 3rem;
+  list-style: none;
+  align-self: center;
+}
+.menu li {
+  width: 125px;
+  height: 50px;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+.menu li a {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.45s;
+}
+.menu li:hover a {
+  border-bottom: 2px solid #bd43c6;
+  padding-bottom: 0.5rem;
+}
+
+.menu li a:focus {
+  border-bottom: 2px solid #bd43c6;
+  padding-bottom: 0.5rem;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 40px;
+}
+.image__container {
+  align-self: center;
+}
+
+img {
+  height: 3rem;
+  border-radius: 50%;
+}
