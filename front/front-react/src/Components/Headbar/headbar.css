@@ -50,6 +50,10 @@
   border-radius: 0;
   background-position: 100% center;
 }
+.search__input:hover::placeholder,
+.search__input:focus::placeholder {
+  color: transparent;
+}
 .menu__container {
   align-self: center;
 }

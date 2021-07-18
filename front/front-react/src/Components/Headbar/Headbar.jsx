@@ -4,7 +4,7 @@ import "./headbar.css";
 const Headbar = () => {
   return (
     <div className="headbar">
-      <h2 className="headbar_logo"> StreetArt </h2>
+      <h2 className="headbar_logo"> LOGO </h2>
       <div class="search__container">
         <input
           class="search__input"
