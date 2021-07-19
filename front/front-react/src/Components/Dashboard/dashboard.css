@@ -1,20 +1,119 @@
 .dashboard {
-  width: 17%;
-  /* height: 50.5rem; */
-  display: flex;
+  width: 22rem;
+  height: 50.55rem;
   flex: 0 0 17%;
   background-color: #1d2434;
   padding: 4rem 0rem 0rem 0rem;
   overflow: scroll;
 }
-
 .dashboard::-webkit-scrollbar {
   width: 0px;
 }
 .dashboard__list {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  list-style: none; */
-  flex: 1;
+  list-style: none;
 }
-/* #4BBDFD */
+.dashboard__item {
+  padding: 1.5rem 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+  backface-visibility: hidden;
+  position: relative;
+}
+.dashboard__item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-color: var(--main-color);
+  transform: scaleY(0);
+  transition: transform 0.4s;
+}
+.dashboard__item--active {
+  color: #bd43c6;
+  position: relative;
+}
+.dashboard__item--active::after {
+  transform: scaleY(1);
+}
+.dashboard__item:hover {
+  color: #bd43c6;
+}
+.dashboard__icon {
+  width: 2rem;
+  fill: currentColor;
+  margin-right: 2rem;
+}
+.dashboard__icon--active {
+  fill: #bd43c6;
+}
+.dashboard__link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: currentColor;
+}
+.dashboard__link--active {
+  font-weight: 900;
+}
+.dashboard__arrow {
+  width: 2rem;
+  margin-left: auto;
+  fill: currentColor;
+  transform: rotate(180deg);
+  transition: all 0.3s;
+}
+/* .dashboard__draggable {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0rem;
+}
+.dashboard__draggable--list {
+  display: flex;
+  align-items: center;
+  color: var(--grey-color);
+  cursor: pointer;
+  padding: 0rem 3rem;
+}
+.dashboard__draggable--list:hover {
+  color: var(--main-color);
+}
+.dashboard__draggable--items {
+  margin-top: 3px;
+  color: var(--grey-color);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-height: 0px;
+}
+.dashboard__draggable--item {
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: currentColor;
+  position: relative;
+}
+.dashboard__draggable--item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  background-color: var(--main-color);
+  transform: scaleY(0);
+  transition: transform 0.4s;
+}
+.dashboard__draggable--item--active {
+  font-weight: 900;
+  color: var(--main-color);
+  position: relative;
+}
+.dashboard__draggable--item--active::after {
+  transform: scaleY(1);
+} */

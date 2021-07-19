@@ -12,39 +12,33 @@ export const userDash = [
         url: `${userDefaultUrl}`
     },
     {
-        Icon: AlbumIcon,
+        Icon: DiscoveryIcon,
         identif: "albums",
         name: "Albums",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: ArtistIcon,
+        Icon: DiscoveryIcon,
         identif: "artists",
         name: "Artists",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: GenreIcon,
+        Icon: DiscoveryIcon,
         identif: "playlist",
         name: "Playlists",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: FavorisIcon,
+        Icon: DiscoveryIcon,
         identif: "favoris",
         name: "Favoris",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: RecentIcon,
+        Icon: DiscoveryIcon,
         identif: "recentlyplayed",
         name: "Recently Played",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: Icon,
-        identif: "",
-        name: "",
         url: `${userDefaultUrl}`
     }
 ];
