@@ -1,7 +1,7 @@
 //import icons
 import DiscoveryIcon from "../../Assets/svgs/DiscoveryIcon";
 
-const userDefaultUrl = "/";
+const userDefaultUrl = "/#";
 export const userDefaultIdentif = "discovery";
 
 export const userDash = [
