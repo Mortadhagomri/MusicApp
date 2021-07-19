@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./dashboard.css";
 import DashItem from "./DashItem";
-// import DashItemDraggable from "./DashItemDraggable";
 
 // sfc
 const Dashboard = ({ dashboard, DefaultIdentif }) => {

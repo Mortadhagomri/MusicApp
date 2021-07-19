@@ -1,6 +1,6 @@
 .dashboard {
   width: 22rem;
-  height: 50.55rem;
+  height: 50.5rem;
   flex: 0 0 17%;
   background-color: #1d2434;
   padding: 4rem 0rem 0rem 0rem;
@@ -20,8 +20,9 @@
   display: flex;
   align-items: center;
   color: white;
-  backface-visibility: hidden;
-  position: relative;
+  /* backface-visibility: hidden; */
+  /* position: relative; */
+  /* height: 100%; */
 }
 .dashboard__item::after {
   content: "";
@@ -29,7 +30,7 @@
   right: 0;
   width: 5px;
   height: 100%;
-  background-color: var(--main-color);
+  background-color: #bd43c6;
   transform: scaleY(0);
   transition: transform 0.4s;
 }
@@ -66,54 +67,3 @@
   transform: rotate(180deg);
   transition: all 0.3s;
 }
-/* .dashboard__draggable {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem 0rem;
-}
-.dashboard__draggable--list {
-  display: flex;
-  align-items: center;
-  color: var(--grey-color);
-  cursor: pointer;
-  padding: 0rem 3rem;
-}
-.dashboard__draggable--list:hover {
-  color: var(--main-color);
-}
-.dashboard__draggable--items {
-  margin-top: 3px;
-  color: var(--grey-color);
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  max-height: 0px;
-}
-.dashboard__draggable--item {
-  text-decoration: none;
-  padding: 1rem 0.5rem;
-  text-align: center;
-  font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: currentColor;
-  position: relative;
-}
-.dashboard__draggable--item::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 5px;
-  height: 100%;
-  background-color: var(--main-color);
-  transform: scaleY(0);
-  transition: transform 0.4s;
-}
-.dashboard__draggable--item--active {
-  font-weight: 900;
-  color: var(--main-color);
-  position: relative;
-}
-.dashboard__draggable--item--active::after {
-  transform: scaleY(1);
-} */
