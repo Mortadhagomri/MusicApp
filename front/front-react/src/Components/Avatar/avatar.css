@@ -1,0 +1,14 @@
+.avatar_container {
+  display: flex;
+  align-items: center;
+}
+.small_avatar {
+  height: 2em;
+  border-radius: 50%;
+}
+.medium_avatar {
+}
+.L_avatar {
+}
+.Xl_avatar {
+}

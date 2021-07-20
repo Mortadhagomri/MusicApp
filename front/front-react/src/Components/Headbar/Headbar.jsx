@@ -1,4 +1,5 @@
 import React from "react";
+import AvatarImg from "../Avatar/Avatar";
 import "./headbar.css";
 
 const Headbar = () => {
@@ -25,12 +26,10 @@ const Headbar = () => {
           </li>
         </ul>
       </div>
-      <div className="image__container">
-        <img
-          src="http://fanfare-makabes.fr/wp-content/uploads/2015/09/user-image.jpg"
-          alt=""
-        />
-      </div>
+      <AvatarImg
+        className={"small_avatar"}
+        src="http://fanfare-makabes.fr/wp-content/uploads/2015/09/user-image.jpg"
+      />
     </div>
   );
 };
