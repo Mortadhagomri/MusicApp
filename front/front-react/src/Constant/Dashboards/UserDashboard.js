@@ -1,5 +1,13 @@
 //import icons
 import DiscoveryIcon from "../../Assets/svgs/DiscoveryIcon";
+import AlbumIcon from "../../Assets/svgs/AlbumIcon";
+import ArtistIcon from "../../Assets/svgs/ArtistIcon";
+import FavorisIcon from "../../Assets/svgs/FavorisIcon";
+import GenreIcon from "../../Assets/svgs/GenreIcon";
+import PlaylistIcon from "../../Assets/svgs/PlaylistIcon";
+import RecentIcon from "../../Assets/svgs/RecentIcon";
+
+
 
 const userDefaultUrl = "/#";
 export const userDefaultIdentif = "discovery";
@@ -12,31 +20,37 @@ export const userDash = [
         url: `${userDefaultUrl}`
     },
     {
-        Icon: DiscoveryIcon,
+        Icon: AlbumIcon,
         identif: "albums",
         name: "Albums",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: DiscoveryIcon,
+        Icon: ArtistIcon,
         identif: "artists",
         name: "Artists",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: DiscoveryIcon,
+        Icon: GenreIcon,
+        identif: "genre",
+        name: "Genre",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
         identif: "playlist",
         name: "Playlists",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: DiscoveryIcon,
+        Icon: FavorisIcon,
         identif: "favoris",
         name: "Favoris",
         url: `${userDefaultUrl}`
     },
     {
-        Icon: DiscoveryIcon,
+        Icon: RecentIcon,
         identif: "recentlyplayed",
         name: "Recently Played",
         url: `${userDefaultUrl}`
