@@ -3,5 +3,14 @@
   height: 100%;
   position: absolute;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
+  background-color: #1d2434;
+}
+.App::-webkit-scrollbar {
+  width: 0px;
+}
+.main {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }

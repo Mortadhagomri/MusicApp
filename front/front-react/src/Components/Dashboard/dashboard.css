@@ -1,10 +1,12 @@
 .dashboard {
-  width: 20%;
-  height: 100%;
-  flex: 0 0 17%;
+  width: 17%;
+  min-width: 15%;
+  height: 70%;
   background-color: #1d2434;
   padding: 4rem 0rem 0rem 0rem;
-  overflow: scroll;
+  /* overflow: scroll; */
+  display: flex;
+  flex-direction: column;
 }
 .dashboard::-webkit-scrollbar {
   width: 0px;
@@ -67,11 +69,11 @@
   margin-bottom: 3rem;
   border-radius: 25px;
   padding: 1rem 1rem;
-  width: 7rem;
+  width: 30%;
   height: 1rem;
   border: 1px solid transparent;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: -webkit-gradient(
@@ -82,4 +84,3 @@
     color-stop(0.03, #5fa8f2)
   );
 }
-/*  */
