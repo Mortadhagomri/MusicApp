@@ -7,6 +7,7 @@ const Container = () => {
     <div className="main_container">
       <div class="item">
         <h2 className="item_title item__title_left">Albums</h2>
+        <CarouselImg className="carousel_div" />
       </div>
       <div class="item">
         <h2 className="item_title item__title_right">Now Trendings</h2>

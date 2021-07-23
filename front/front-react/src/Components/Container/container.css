@@ -19,11 +19,15 @@
   /* text-align: left; */
 }
 .item_title {
+  /* margin-top: 0; */
+  margin-left: 0;
+  height: 2rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 .item__title_left {
-  padding-right: 85%;
+  padding-right: 75%;
 }
 .item__title_right {
-  padding-right: 60%;
+  padding-right: 50%;
 }
