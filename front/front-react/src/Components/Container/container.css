@@ -1,26 +1,14 @@
 .main_container {
   flex: 1;
-  height: 100%;
   color: white;
   display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
 .item {
-  margin: 5px;
   /* padding: 20px; */
   background-color: #00000056;
   color: white;
-  display: flex;
-  flex-direction: column;
   /* text-align: left; */
-}
-.item_title {
-  font-weight: 700;
-}
-.item__title_left {
-  padding-right: 85%;
-}
-.item__title_right {
-  padding-right: 60%;
 }

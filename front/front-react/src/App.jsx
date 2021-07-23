@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./App.css";
 
 import Headbar from "./Components/Headbar/Headbar";
@@ -15,8 +14,9 @@ const App = () => {
   return (
     <div className="App">
       <Headbar />
-      <div className="main">
-        <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
+      <div className="main__app">
+        <Dashboard dashboard={userDash} />
+
         <Container />
       </div>
     </div>

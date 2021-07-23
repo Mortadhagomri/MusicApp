@@ -2,6 +2,7 @@
   display: flex;
   padding: 2rem 5rem;
   justify-content: space-between;
+  height: 10rem;
   /* position: sticky; */
 }
 .headbar_logo {

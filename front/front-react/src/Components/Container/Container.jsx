@@ -9,13 +9,13 @@ const Container = () => {
         <Slider />
       </div>
       <div class="item">
-        <h2 className="item_title item__title_right">Now Trendings</h2>
+        <Slider />
       </div>
       <div class="item">
-        <h2 className="item_title item__title_left">Genre</h2>
+        <Slider />
       </div>
       <div class="item">
-        <h2 className="item_title item__title_right">Popular Artists</h2>
+        <Slider />
       </div>
     </div>
   );
