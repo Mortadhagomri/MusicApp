@@ -1,23 +1,18 @@
 .main_container {
   flex: 1;
-  height: 90%;
-  margin: 0.5rem;
-  background-color: #1d2434;
   color: white;
-  border: 1px solid #00000056;
   display: grid;
-  grid-template-columns: 60% 40%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 }
 .item {
-  margin: 5px;
   /* padding: 20px; */
   background-color: #00000056;
   color: white;
-  display: flex;
-  flex-direction: column;
   /* text-align: left; */
 }
+<<<<<<< HEAD
 .item_title {
   /* margin-top: 0; */
   margin-left: 0;
@@ -31,3 +26,5 @@
 .item__title_right {
   padding-right: 50%;
 }
+=======
+>>>>>>> e6d751aa734138a31641e415d9164b632332f49e

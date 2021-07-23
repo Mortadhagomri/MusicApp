@@ -1,22 +1,26 @@
 import React from "react";
-import CarouselImg from "../Carousel/Carousel";
+import Slider from "../Slider/Slider";
 import "./container.css";
 
 const Container = () => {
   return (
     <div className="main_container">
       <div class="item">
+<<<<<<< HEAD
         <h2 className="item_title item__title_left">Albums</h2>
         <CarouselImg className="carousel_div" />
+=======
+        <Slider />
+>>>>>>> e6d751aa734138a31641e415d9164b632332f49e
       </div>
       <div class="item">
-        <h2 className="item_title item__title_right">Now Trendings</h2>
+        <Slider />
       </div>
       <div class="item">
-        <h2 className="item_title item__title_left">Genre</h2>
+        <Slider />
       </div>
       <div class="item">
-        <h2 className="item_title item__title_right">Popular Artists</h2>
+        <Slider />
       </div>
     </div>
   );
