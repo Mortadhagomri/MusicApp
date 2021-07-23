@@ -1,11 +1,7 @@
 .headbar {
-  height: 2rem;
   display: flex;
-  flex-direction: row;
   padding: 2rem 5rem;
   justify-content: space-between;
-  z-index: 6;
-  background-color: #1d2434;
   /* position: sticky; */
 }
 .headbar_logo {

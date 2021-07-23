@@ -1,19 +1,33 @@
 .dashboard {
-  width: 17%;
+  max-width: 17%;
   min-width: 15%;
-  height: 70%;
-  background-color: #1d2434;
-  padding: 4rem 0rem 0rem 0rem;
-  /* overflow: scroll; */
+  height: 100%;
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
 }
 .dashboard::-webkit-scrollbar {
   width: 0px;
 }
+
+.dashboard__title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 0.4rem 1rem;
+  width: 30%;
+  text-align: center;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right bottom,
+    color-stop(1, #bd43c6),
+    color-stop(0.03, #5fa8f2)
+  );
+}
 .dashboard__list {
-  display: flex;
-  flex-direction: column;
   list-style: none;
 }
 .dashboard__item {
@@ -48,7 +62,7 @@
   color: #c6439a;
 }
 .dashboard__icon {
-  width: 2rem;
+  min-width: 2rem;
   margin-right: 2rem;
 }
 
@@ -59,28 +73,4 @@
 }
 .dashboard__link--active {
   font-weight: 700;
-}
-
-.title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: white;
-  margin-left: 7rem;
-  margin-bottom: 3rem;
-  border-radius: 25px;
-  padding: 1rem 1rem;
-  width: 30%;
-  height: 1rem;
-  border: 1px solid transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    right bottom,
-    color-stop(1, #bd43c6),
-    color-stop(0.03, #5fa8f2)
-  );
 }

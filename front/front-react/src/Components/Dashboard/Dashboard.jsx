@@ -10,9 +10,7 @@ const Dashboard = ({ dashboard, DefaultIdentif }) => {
   };
   return (
     <nav className="dashboard">
-      <div className="title">
-        <span>Music</span>
-      </div>
+      <span className="dashboard__title">Music</span>
       <ul className="dashboard__list">
         {dashboard.map((item, index) => (
           <DashItem

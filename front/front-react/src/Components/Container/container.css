@@ -1,10 +1,7 @@
 .main_container {
   flex: 1;
-  height: 90%;
-  margin: 0.5rem;
-  background-color: #1d2434;
+  height: 100%;
   color: white;
-  border: 1px solid #00000056;
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 50% 50%;
