@@ -1,6 +1,8 @@
 import React from "react";
-import Slider from "../Slider/Slider";
+import ChartAlbums from "./ChartAlbums/ChartAlbums";
 import "./container.css";
+
+import { albums } from "./ChartAlbums/fakedataAlbums";
 
 const Container = () => {
   return (
@@ -9,6 +11,9 @@ const Container = () => {
       <div class="item">
         <Slider />
       </div>
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
     </div>
   );
 };
