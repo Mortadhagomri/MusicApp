@@ -6,7 +6,7 @@
   /* position: sticky; */
 }
 .headbar_logo {
-  background-color: none;
+  font-size: 3.5rem;
   color: white;
   font-weight: bolder;
   align-self: center;
@@ -46,14 +46,12 @@
 .search__input:focus::placeholder {
   color: black;
 }
-.menu__container {
-  align-self: center;
-}
 
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-self: center;
   max-width: 10rem;
   margin: 0;
   height: 3rem;
@@ -61,13 +59,10 @@
   align-self: center;
 }
 .menu li {
-  width: 125px;
-  height: 50px;
   transition: background-position-x 0.9s linear;
-  text-align: center;
 }
 .menu li a {
-  font-size: 22px;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
   transition: all 0.45s;
@@ -88,8 +83,3 @@
 .image__container {
   align-self: center;
 }
-
-/* img {
-  height: 3rem;
-  border-radius: 50%;
-} */

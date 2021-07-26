@@ -13,19 +13,19 @@ const Headbar = () => {
           placeholder="Search for song, events, articles"
         />
       </div>
-      <div className="menu_container">
-        <ul class="menu">
-          <li>
-            <a href="#!">Music</a>
-          </li>
-          <li>
-            <a href="#!">Event</a>
-          </li>
-          <li>
-            <a href="#!">Shop</a>
-          </li>
-        </ul>
-      </div>
+
+      <ul class="menu">
+        <li>
+          <a href="#!">Music</a>
+        </li>
+        <li>
+          <a href="#!">Event</a>
+        </li>
+        <li>
+          <a href="#!">Shop</a>
+        </li>
+      </ul>
+
       <AvatarImg
         className={"small_avatar"}
         src="http://fanfare-makabes.fr/wp-content/uploads/2015/09/user-image.jpg"
