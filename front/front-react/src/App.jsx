@@ -3,7 +3,7 @@ import "./App.css";
 
 import Headbar from "./Components/Headbar/Headbar";
 import Dashboard from "./Components/Dashboard/Dashboard";
-import Container from "./Components/Container/Container";
+import Container from "./Components/Container/MainContainer/Container";
 
 import {
   userDefaultIdentif,

@@ -12,7 +12,7 @@ const ChartAlbums = ({ albums }) => {
   const [index, setIndex] = useState(0);
 
   const handleRight = () => {
-    let total = 5; //à refaire
+    let total = 7; //à refaire
     if (index < total) {
       setIndex(index + 1);
       document.getElementById(
@@ -31,7 +31,7 @@ const ChartAlbums = ({ albums }) => {
   return (
     <div>
       <div className="header-carrousel">
-        <h1> Albums</h1>
+        <h1>Top Albums</h1>
         <div>
           <FontAwesomeIcon
             icon={faChevronLeft}
