@@ -4,7 +4,7 @@ export const Tracks = [
         album: "blabla",
         artist: "foulen",
         duration: "3:40",
-        imgalbum: "https://365psd.com/images/previews/167/psd-vinyl-cover-record-mock-up-56253.jpg",
+        imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
         preview: "/4LFA - BLUE PILL.mp3"
     },
     {
@@ -12,7 +12,7 @@ export const Tracks = [
         album: "blabla",
         artist: "foulen",
         duration: "3:40",
-        imgalbum: "https://365psd.com/images/previews/167/psd-vinyl-cover-record-mock-up-56253.jpg",
+        imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
         preview: "/4LFA - BLUE PILL.mp3"
     },
     {
@@ -20,7 +20,7 @@ export const Tracks = [
         album: "blabla",
         artist: "foulen",
         duration: "3:40",
-        imgalbum: "https://365psd.com/images/previews/167/psd-vinyl-cover-record-mock-up-56253.jpg",
+        imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
         preview: "/4LFA - BLUE PILL.mp3"
     },
     {
@@ -28,7 +28,22 @@ export const Tracks = [
         album: "blabla",
         artist: "foulen",
         duration: "3:40",
-        imgalbum: "https://365psd.com/images/previews/167/psd-vinyl-cover-record-mock-up-56253.jpg",
+        imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
         preview: "/4LFA - BLUE PILL.mp3"
-    }
+    },
+    // {
+    //     title: "blabla",
+    //     album: "blabla",
+    //     artist: "foulen",
+    //     duration: "3:40",
+    //     imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
+    //     preview: "/4LFA - BLUE PILL.mp3"
+    // }, {
+    //     title: "blabla",
+    //     album: "blabla",
+    //     artist: "foulen",
+    //     duration: "3:40",
+    //     imgalbum: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg",
+    //     preview: "/4LFA - BLUE PILL.mp3"
+    // }
 ]

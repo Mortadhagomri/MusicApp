@@ -7,6 +7,9 @@
   border-radius: 50%;
 }
 .medium_avatar {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
 }
 .L_avatar {
 }

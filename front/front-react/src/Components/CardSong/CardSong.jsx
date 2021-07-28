@@ -1,6 +1,6 @@
 import React from "react";
-import HeartButton from "../Buttons/HeartButton";
-import PlayButton from "../Buttons/PlayButton";
+import HeartButton from "../Buttons/HeartButton/HeartButton";
+import PlayButton from "../Buttons/PlayButton/PlayButton";
 
 import "./cardsong.css";
 
