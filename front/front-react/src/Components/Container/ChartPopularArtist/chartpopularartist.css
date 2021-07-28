@@ -1,0 +1,30 @@
+.chartPopularArtists__title {
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.container_artists_list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 10px;
+  overflow: visible;
+}
+.item_artist {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+
+.artist_info {
+  display: flex;
+}
+.artist_info_ {
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: 650;
+}
+.artist_followers {
+  font-size: 1.2rem;
+  font-weight: 400;
+}

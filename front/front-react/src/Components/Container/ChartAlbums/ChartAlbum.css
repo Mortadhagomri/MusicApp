@@ -22,7 +22,7 @@
 
 .arrow:hover {
   cursor: pointer;
-  color: var(--yellow-accent);
+  color: #bd43c6;
 }
 
 @media (max-width: 700px) {

@@ -13,7 +13,7 @@ export const albums = [
     },
     {
         name: "album_4",
-        src_image: "https://lh3.googleusercontent.com/proxy/7sMGJsUZHwQwq323jgIfdN4vyAaTdRtLDtZ62eaX93fnSnkZv1dQoGVR-rViTCocPQVD4a1sh0nNNz9eM6I1OapXtZD-aTluOxXNujKUmahs2Q4fdlJgVbvBJJw5kKzdzu97ft8fafmZ5LGC_hURb5o"
+        src_image: "https://365psd.com/images/previews/1ce/vinyl-record-psd-mockup-56421.jpg"
     },
     {
         name: "album_5",

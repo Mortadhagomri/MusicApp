@@ -1,0 +1,10 @@
+.Track-Card {
+  position: absolute;
+  right: 20px;
+  bottom: 21.5px;
+}
+
+.Heart {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
