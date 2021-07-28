@@ -11,6 +11,7 @@
 }
 
 .dashboard__title {
+  font-family: "Style Script", cursive;
   font-size: 2rem;
   font-weight: 600;
   color: white;
@@ -40,16 +41,10 @@
   height: 100%;
   transform: scaleY(0);
   transition: transform 0.4s;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(1, #bd43c6),
-    color-stop(0.03, #5fa8f2)
-  );
+  background: linear-gradient(to left, #e21cb5, #5fa8f2);
 }
 .dashboard__item--active {
-  color: #c6439a;
+  color: #e21cb5;
   position: relative;
 }
 .dashboard__item--active::after {
@@ -64,8 +59,8 @@
 }
 
 .dashboard__link {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.7rem;
+  font-weight: 400;
   color: currentColor;
 }
 .dashboard__link--active {
