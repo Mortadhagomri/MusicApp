@@ -1,6 +1,6 @@
 .chartPopularArtists__title {
   margin: 10px;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   font-weight: 700;
 }
 
@@ -20,10 +20,10 @@
 .artist_info {
   display: flex;
 }
-.artist_info_ {
+.artist_info_name {
   margin-left: 2rem;
-  font-size: 1.6rem;
-  font-weight: 650;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .artist_followers {
   font-size: 1.2rem;
