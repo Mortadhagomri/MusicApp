@@ -53,7 +53,7 @@ section .slider_genre .items_slider_genre {
   color: white;
   font-size: 1.8rem;
   text-align: center;
-  margin: 0;
+  margin: 0.5rem;
   white-space: nowrap;
   width: 150px;
   overflow: hidden;
