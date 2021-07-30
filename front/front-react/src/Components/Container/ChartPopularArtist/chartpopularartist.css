@@ -1,5 +1,6 @@
 .chartPopularArtists__title {
   margin: 10px;
+  margin-bottom: 0;
   font-size: 3.4rem;
   font-weight: 700;
 }

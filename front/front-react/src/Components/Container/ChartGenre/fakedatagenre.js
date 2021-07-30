@@ -13,7 +13,7 @@ export const genres = [
     },
     {
         name: "Jazz",
-        image_genre: "https://st2.depositphotos.com/3405719/5671/v/950/depositphotos_56719903-stock-illustration-water-color-saxophone.jpg"
+        image_genre: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmW8IXbayGR-fFAn8ynDIDJLAhRJiWaIPoHw&usqp=CAU"
     },
     {
         name: "Rap",
@@ -21,7 +21,7 @@ export const genres = [
     },
     {
         name: "Blues",
-        image_genre: "https://lh3.googleusercontent.com/proxy/fIN179cPWhgXqLiGVkT1oizyPRHQdCUfmuiEY5sYv7v_J9mQqa-Dhe1HuTZKHPoIVMNtd-ahX2CcbrshcRUuPExUUXXr1gD74RMmPGACjgXmrRKqszrv_A3D1BkeRdF5dLfl"
+        image_genre: "http://mrweis.files.wordpress.com/2009/03/blues_guitar.jpg"
     },
     {
         name: "Rock",

@@ -2,8 +2,8 @@
   display: flex;
   padding: 2rem 5rem;
   justify-content: space-between;
-  height: 10rem;
-  /* position: sticky; */
+  /* height: 10rem; 9dima*/
+  height: 100%;
 }
 .headbar_logo {
   font-size: 3.5rem;
