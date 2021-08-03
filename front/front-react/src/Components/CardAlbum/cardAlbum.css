@@ -1,6 +1,7 @@
 .album {
   width: 150px;
-  margin: 30px 40px;
+  margin-top: 1rem;
+  margin-right: 12rem;
   transition: transform 0.2s ease-out;
 }
 
@@ -10,8 +11,8 @@
 }
 
 .album .card-album {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 8px;
   overflow: hidden;
 }
