@@ -6,14 +6,16 @@
   height: 100%;
 }
 .headbar_logo {
-  font-size: 3.5rem;
+  margin-top: 4rem;
+  font-size: 4rem;
   color: white;
   font-weight: bolder;
-  align-self: center;
+  text-align: center;
 }
 .search__container {
-  width: 30%;
+  width: 40%;
   padding-top: 2px;
+  margin: auto;
   align-self: center;
   border: none;
 }
@@ -53,7 +55,7 @@
   justify-content: center;
   align-self: center;
   max-width: 10rem;
-  margin: 0;
+  margin: auto;
   height: 3rem;
   list-style: none;
   align-self: center;

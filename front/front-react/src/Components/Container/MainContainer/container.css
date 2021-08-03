@@ -13,7 +13,7 @@
   min-width: 100%;
   max-height: 40rem;
   overflow: scroll;
-  background-color: #00000056;
+  /* background-color: #00000056; */
   border-radius: 1.5%;
   color: white;
 }

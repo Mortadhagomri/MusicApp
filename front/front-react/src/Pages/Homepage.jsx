@@ -7,20 +7,28 @@ import {
   userDash,
 } from "../Constant/Dashboards/UserDashboard.js";
 import Container from "../Components/Container/MainContainer/Container";
+import MediaPlayer from "../Components/MediaPlayer/MediaPlayer";
 
 const Homepage = () => {
   return (
     <div class="grid-container">
-      <div class="item1">
+      <div class="header">
         <Headbar />
       </div>
-      <div class="item2">
+      <div class="sidebar">
+        <h2 className="headbar_logo"> LOGO </h2>
         <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
       </div>
-      <div class="item3">
+      <div class="main">
+        <Container />
+        <Container />
+        <Container />
+
         <Container />
       </div>
-      <div class="item4"> Media Player en cours </div>
+      <div class="footer">
+        <MediaPlayer />
+      </div>
     </div>
   );
 };

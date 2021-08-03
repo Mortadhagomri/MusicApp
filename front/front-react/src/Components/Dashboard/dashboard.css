@@ -2,9 +2,12 @@
   /* width: 18%; */
   /* min-width: 10%; */
   min-height: 100%;
-  padding-top: 3rem;
+  padding-top: 6rem;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 50%;
+  left: 0;
 }
 .dashboard::-webkit-scrollbar {
   width: 0px;
