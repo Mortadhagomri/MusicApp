@@ -53,6 +53,7 @@
 }
 .container-song__icons {
   margin-right: 2rem;
+  width: 5rem;
 }
 
 @media (max-width: 432px) {
