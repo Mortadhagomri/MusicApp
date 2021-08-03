@@ -54,7 +54,68 @@ export const userDash = [
         identif: "recentlyplayed",
         name: "Recently Played",
         url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 1",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 2",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 3",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 4",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 5",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlist 6",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlists",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlists",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlists",
+        url: `${userDefaultUrl}`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlists",
+        url: `${userDefaultUrl}`
     }
+
 ];
 
 

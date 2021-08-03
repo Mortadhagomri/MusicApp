@@ -43,11 +43,21 @@
 
 /* menu */
 .grid-container > .sidebar {
+  position: relative;
   background-color: #131720;
   min-height: 100%;
   width: 26rem;
 }
-
+.headbar_logo {
+  font-size: 4rem;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  position: fixed;
+  top: 1.5rem;
+  left: 7rem;
+  z-index: 10;
+}
 /* main */
 .grid-container > .main {
   position: relative;
@@ -60,11 +70,10 @@
 .main::-webkit-scrollbar {
   width: 0px;
 }
-
 /* footer */
 .grid-container > .footer {
   /* visibility: hidden; */
-  position: fixed;
+  position: sticky;
   height: 10.4rem;
   width: 100%;
   bottom: 0;

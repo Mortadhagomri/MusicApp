@@ -21,6 +21,7 @@ const Homepage = () => {
       </div>
       <div class="main">
         <Container />
+        <Container />
       </div>
       <div class="footer">
         <MediaPlayer />
