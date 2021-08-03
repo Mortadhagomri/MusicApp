@@ -21,10 +21,6 @@ const Homepage = () => {
       </div>
       <div class="main">
         <Container />
-        <Container />
-        <Container />
-
-        <Container />
       </div>
       <div class="footer">
         <MediaPlayer />

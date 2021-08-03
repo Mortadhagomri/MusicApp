@@ -57,7 +57,7 @@
 /* main */
 .grid-container > .main {
   position: relative;
-  padding: 1.5rem;
+  padding: 1rem;
   grid-template-rows: min-content;
   grid-row-gap: 4rem;
   overflow-y: scroll;
