@@ -11,12 +11,12 @@ const ChartGenre = ({ genres }) => {
   const [index, setIndex] = useState(0);
 
   const handleRight = () => {
-    let total = 3; //à refaire
+    let total = 5; //à refaire
     if (index < total) {
       setIndex(index + 1);
       document.getElementById(
         "carousel-genres"
-      ).style.transform = `translateX(-${index * (170 + 40)}px)`;
+      ).style.transform = `translateX(-${index * (170 + 10)}px)`;
     }
   };
   const handleLeft = () => {

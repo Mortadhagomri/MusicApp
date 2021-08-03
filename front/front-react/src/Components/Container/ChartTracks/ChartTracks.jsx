@@ -7,7 +7,7 @@ const ChartTracks = ({ tracks }) => {
   return (
     <div>
       <div>
-        <h1 className="chartTracks__title">Top Songs</h1>
+        <h1 className="chartTracks__title">Now Trending</h1>
       </div>
       <section className="top-songs-container">
         {tracks.map((track) => (

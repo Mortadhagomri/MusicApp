@@ -12,12 +12,12 @@ const ChartAlbums = ({ albums }) => {
   const [index, setIndex] = useState(0);
 
   const handleRight = () => {
-    let total = 7; //à refaire
+    let total = 8; //à refaire
     if (index < total) {
       setIndex(index + 1);
       document.getElementById(
         "carousel-top-albums"
-      ).style.transform = `translateX(-${index * (170 + 40)}px)`;
+      ).style.transform = `translateX(-${index * (170 + 50)}px)`;
     }
   };
   const handleLeft = () => {
