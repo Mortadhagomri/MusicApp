@@ -19,7 +19,7 @@ const CardSong = ({ song }) => {
         </div>
       </div>
       <p className="duration">{song.duration}</p>
-      <PlayButton url={song.preview} />
+      <PlayButton url={song.preview} className="icon-controller" />
       <HeartButton track={song} />
     </div>
   );

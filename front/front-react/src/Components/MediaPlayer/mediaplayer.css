@@ -24,9 +24,42 @@
 }
 
 .media_player_songcontrols {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 65%;
+  display: block;
+  font-size: 1.5rem;
 }
+.audioplayer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mediaplayer_progressbar {
+  display: flex;
+  color: blanchedalmond;
+  justify-content: center;
+  align-items: center;
+}
+progress {
+  width: 92%;
+  height: 0.2rem;
+  margin: 0 auto;
+  -webkit-appearance: none;
+}
+progress::-webkit-progress-value {
+  background: #e21cb5;
+}
+
 .mediaplayer_volumecontrols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 15%;
+}
+
+div #volume {
+  width: 60%;
+  height: 0.2rem;
+  margin-right: 1rem;
+  background-color: antiquewhite;
 }

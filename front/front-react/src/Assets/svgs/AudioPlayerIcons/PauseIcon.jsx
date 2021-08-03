@@ -1,4 +1,6 @@
 import React from "react";
+import PlayButton from "../../../Components/Buttons/PlayButton/PlayButton";
+import "./audioplayericons.css";
 
 const PauseIcon = () => {
   return (
@@ -7,6 +9,7 @@ const PauseIcon = () => {
       width="47"
       height="47"
       viewBox="0 0 47 47"
+      className="mediaplayer_icons pause_icon"
     >
       <defs>
         <linearGradient

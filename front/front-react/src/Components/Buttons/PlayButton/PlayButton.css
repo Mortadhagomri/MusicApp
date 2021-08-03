@@ -10,3 +10,8 @@
   cursor: pointer;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.playicon {
+  height: 5px;
+  width: 5px;
+}

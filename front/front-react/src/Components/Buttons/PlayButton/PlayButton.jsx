@@ -3,7 +3,7 @@ import "./PlayButton.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause } from "@fortawesome/free-solid-svg-icons";
 
-const PlayButton = ({ url }) => {
+const PlayButton = ({ url, className }) => {
   const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
 
@@ -15,7 +15,7 @@ const PlayButton = ({ url }) => {
 
   return (
     <FontAwesomeIcon
-      className="icon-controller"
+      className={className}
       icon={playing ? faPause : faPlay}
       onClick={toggle}
     />

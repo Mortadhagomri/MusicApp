@@ -29,17 +29,16 @@
   min-height: 100vh;
   display: grid;
   grid-template-areas:
-    "menu header header header header header"
-    "menu main main main main main "
-    "menu main main  main main main"
-    "footer footer footer footer footer footer";
+    "menu menu header header header header header header"
+    "menu menu main main main main main main  "
+    "menu menu  main main  main main main main "
+    "footer footer footer footer footer footer footer footer";
   grid-column-gap: 10px;
   background-color: transparent;
 }
 
 /* headbar */
 .grid-container > .header {
-  /* background-color: #181424; */
   background-color: #1d2434;
   position: sticky;
   top: 0;
@@ -48,10 +47,9 @@
 
 /* menu */
 .grid-container > .sidebar {
-  /* background-color: #00000056; */
   background-color: #131720;
   min-height: 100%;
-  width: 15vw;
+  width: 25rem;
 }
 
 /* main */
@@ -70,9 +68,8 @@
 .grid-container > .footer {
   /* visibility: hidden; */
   position: fixed;
-  height: 10rem;
+  height: 10.4rem;
   width: 100%;
   bottom: 0;
-  font-size: 5rem;
   text-align: center;
 }

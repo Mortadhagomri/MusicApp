@@ -1,4 +1,5 @@
 import React from "react";
+import VolumeUpIcon from "../../Assets/svgs/AudioPlayerIcons/VolumeUpIcon";
 import Audioplayer from "./Audioplayer";
 import "./mediaplayer.css";
 
@@ -32,14 +33,22 @@ const MediaPlayer = () => {
           className="mediaplayer_artist_img"
         />
         <div className="mediaplayer_song_info">
-          <h3>Title of song</h3>
+          <h4>Title of song</h4>
           <p>Artist</p>
         </div>
       </div>
       <div className="media_player_songcontrols">
         <Audioplayer />
+        <div className="mediaplayer_progressbar">
+          <span>0:00</span>
+          <progress max="100" value="50"></progress>
+          <span>3:40</span>
+        </div>
       </div>
-      <div className="mediaplayer_volumecontrols">3</div>
+      <div className="mediaplayer_volumecontrols">
+        <VolumeUpIcon />
+        <div id="volume"></div>
+      </div>
     </div>
   );
 };
