@@ -12,13 +12,7 @@ const HeartButton = () => {
   };
 
   return (
-    <div className="Track-Card">
-      <FontAwesomeIcon
-        icon={faHeart}
-        className="Heart"
-        onClick={handleToogle}
-      />
-    </div>
+    <FontAwesomeIcon icon={faHeart} className="Heart" onClick={handleToogle} />
   );
 };
 
