@@ -5,13 +5,19 @@
   display: flex;
   flex: 1;
   background-color: #131720;
+  box-shadow: 5px -5px 10px #0b0f16;
 }
 .mediaplayer_artist_info {
   color: white;
-  font-size: 1.8rem;
+  font-size: 2rem;
   width: 20%;
   display: flex;
 }
+
+.mediaplayer_artist_info p {
+  font-size: 1.5rem;
+}
+
 .mediaplayer_artist_img {
   width: 40%;
   height: 100%;
@@ -24,7 +30,6 @@
 }
 
 .media_player_songcontrols {
-  /* border: 1px solid white; */
   width: 65%;
   display: block;
   font-size: 1.5rem;
@@ -58,8 +63,8 @@ progress::-webkit-progress-value {
 }
 
 div #volume {
-  width: 60%;
+  width: 50%;
   height: 0.2rem;
   margin-right: 1rem;
-  background-color: antiquewhite;
+  background-color: white;
 }

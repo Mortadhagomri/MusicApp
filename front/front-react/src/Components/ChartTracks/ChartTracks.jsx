@@ -6,9 +6,7 @@ import "./chartTracks.css";
 const ChartTracks = ({ tracks }) => {
   return (
     <div>
-      <div>
-        <h1 className="chartTracks__title">Now Trending</h1>
-      </div>
+      <h1 className="chartTracks__title">Now Trending</h1>
       <section className="top-songs-container">
         {tracks.map((track) => (
           <CardSong key={track.id} song={track} />
