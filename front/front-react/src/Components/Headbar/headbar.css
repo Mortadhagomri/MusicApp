@@ -1,8 +1,7 @@
 .headbar {
   display: flex;
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
   justify-content: space-between;
-  /* height: 10rem; 9dima*/
   height: 100%;
 }
 .headbar_logo {
