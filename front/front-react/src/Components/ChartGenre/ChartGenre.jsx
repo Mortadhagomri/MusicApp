@@ -4,7 +4,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import AvatarImg from "../../Avatar/Avatar";
+import AvatarImg from "../Avatar/Avatar";
 import "./chartgenre.css";
 
 const ChartGenre = ({ genres }) => {

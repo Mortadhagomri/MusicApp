@@ -6,7 +6,7 @@ import {
   userDefaultIdentif,
   userDash,
 } from "../Constant/Dashboards/UserDashboard.js";
-import Container from "../Components/Container/MainContainer/Container";
+import Container from "../Components/Container/Container";
 import MediaPlayer from "../Components/MediaPlayer/MediaPlayer";
 
 const Homepage = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import AvatarImg from "../../Avatar/Avatar";
+import AvatarImg from "../Avatar/Avatar";
 import "./chartpopularartist.css";
-import Dots from "../../Buttons/Dots/Dots";
+import Dots from "../Buttons/Dots/Dots";
 
 const ChartPopularArtist = ({ artists }) => {
   return (

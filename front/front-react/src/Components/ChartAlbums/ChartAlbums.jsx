@@ -5,7 +5,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 
-import CardAlbum from "../../CardAlbum/CardAlbum";
+import CardAlbum from "../CardAlbum/CardAlbum";
 import "./ChartAlbum.css";
 
 const ChartAlbums = ({ albums }) => {

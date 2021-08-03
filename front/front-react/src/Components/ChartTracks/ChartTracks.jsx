@@ -1,5 +1,5 @@
 import React from "react";
-import CardSong from "../../CardSong/CardSong";
+import CardSong from "../CardSong/CardSong";
 
 import "./chartTracks.css";
 
