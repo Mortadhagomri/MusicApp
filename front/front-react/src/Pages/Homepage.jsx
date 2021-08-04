@@ -1,32 +1,38 @@
 import React from "react";
-import Headbar from "../Components/Headbar/Headbar";
-import Dashboard from "../Components/Dashboard/Dashboard";
 
-import {
-  userDefaultIdentif,
-  userDash,
-} from "../Constant/Dashboards/UserDashboard.js";
-import Container from "../Components/Container/Container";
-import MediaPlayer from "../Components/MediaPlayer/MediaPlayer";
+// fake data
+import { albums } from "../Components/ChartAlbums/fakedataAlbums";
+import { Tracks } from "../Components/ChartTracks/fakedataTracks";
+import { genres } from "../Components/ChartGenre/fakedatagenre";
+import { artists } from "../Components/ChartPopularArtist/fakedatapopularartist";
+
+// components
+import ChartAlbums from "../Components/ChartAlbums/ChartAlbums";
+import ChartTracks from "../Components/ChartTracks/ChartTracks";
+import ChartGenre from "../Components/ChartGenre/ChartGenre";
+import ChartPopularArtist from "../Components/ChartPopularArtist/ChartPopularArtist";
 
 const Homepage = () => {
   return (
-    <div class="grid-container">
-      <div class="header">
-        <Headbar />
+    <>
+      <div className="vertical_grid_container">
+        <div class="vertical_grid_container_item">
+          <ChartAlbums albums={albums} />
+        </div>
+        <div class="vertical_grid_container_item">
+          <ChartTracks tracks={Tracks} />
+        </div>
+        <div class="vertical_grid_container_item">
+          <ChartGenre genres={genres} />
+        </div>
+        <div class="vertical_grid_container_item">
+          <ChartPopularArtist artists={artists} />
+        </div>
       </div>
-      <div class="sidebar">
-        <h2 className="headbar_logo"> LOGO </h2>
-        <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
+      <div>
+        <ChartAlbums albums={albums} />
       </div>
-      <div class="main">
-        <Container />
-        <Container />
-      </div>
-      <div class="footer">
-        <MediaPlayer />
-      </div>
-    </div>
+    </>
   );
 };
 
