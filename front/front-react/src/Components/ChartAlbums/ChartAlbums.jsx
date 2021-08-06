@@ -12,7 +12,7 @@ const ChartAlbums = ({ albums }) => {
   const [index, setIndex] = useState(0);
 
   const handleRight = () => {
-    let total = 8; //à refaire
+    let total = 6; //à refaire
     if (index < total) {
       setIndex(index + 1);
       document.getElementById(

@@ -1,25 +1,60 @@
-/* eslint-disable jsx-a11y/alt-text */
-import { useState } from "react";
-// import "./slider.css";
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+import CardAlbum from "../CardAlbum/CardAlbum";
+import "./slider.css";
 
-const Slider = ({ albums = ["/maquette.jpg"] }) => {
-  const [left, setLeft] = useState(0);
+const Slider = ({ albums, id_slider }) => {
+  const [index, setIndex] = useState(0);
+
+  const handleRight = () => {
+    let id = id_slider;
+    let total = 8; //à refaire
+    if (index < total) {
+      setIndex(index + 1);
+      document.getElementById(id).style.transform = `translateX(-${
+        index * (100 + 50)
+      }px)`;
+    }
+  };
+  const handleLeft = () => {
+    let id = id_slider;
+
+    if (index > -1) {
+      setIndex(index - 1);
+      document.getElementById(id).style.transform = `translateX(${
+        index * 100
+      }px)`;
+    }
+  };
 
   return (
-    <>
-      <div className="slider">
-        <h1 class="slider__title">Albums</h1>
-        <div
-          className="slider__container"
-          style={{ left: left + "%" }}
-          onClick={() => setLeft(left - 100)}
-        >
-          {albums.map((album) => (
-            <img src={album} className="slider__img" />
+    <div className="slider_container">
+      <div className="slider_arrow">
+        <FontAwesomeIcon
+          icon={faChevronLeft}
+          className="arrow"
+          onClick={handleLeft}
+        />
+      </div>
+      <div className="slider_items_container">
+        <div className="slider_items" id={id_slider}>
+          {albums.map((album, index) => (
+            <CardAlbum key={index} album={album} />
           ))}
         </div>
       </div>
-    </>
+      <div className="slider_arrow">
+        <FontAwesomeIcon
+          icon={faChevronRight}
+          className="arrow"
+          onClick={handleRight}
+        />
+      </div>
+    </div>
   );
 };
 

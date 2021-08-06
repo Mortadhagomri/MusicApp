@@ -108,7 +108,6 @@
 }
 .horizontal_grid_container_item {
   min-width: 100%;
-  height: 40rem;
-  background-color: #00000056;
-  padding: 0 1rem;
+  height: max-content;
+  /* background-color: #00000056; */
 }
