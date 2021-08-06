@@ -27,8 +27,9 @@ const App = () => {
           <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
         </div>
         <div class="main">
-          {/* <Homepage /> */}
+          <Homepage />
           <Albumspage />
+          {/* <Artistspage /> */}
         </div>
         <div class="footer">
           <MediaPlayer />
