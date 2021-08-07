@@ -14,6 +14,7 @@ import {
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
 import Albumspage from "./Pages/Albumspage";
+import Artistspage from "./Pages/Artistspage";
 
 const App = () => {
   return (
@@ -27,9 +28,9 @@ const App = () => {
           <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
         </div>
         <div class="main">
-          <Homepage />
-          <Albumspage />
-          {/* <Artistspage /> */}
+          {/* <Homepage /> */}
+          {/* <Albumspage /> */}
+          <Artistspage />
         </div>
         <div class="footer">
           <MediaPlayer />

@@ -1,25 +1,27 @@
 import React from "react";
-import ChartAlbums from "../Components/ChartAlbums/ChartAlbums";
 import { albums } from "../Components/ChartAlbums/fakedataAlbums";
 import Slider from "../Components/Slider/Slider";
 import Typography from "../Components/Typography/Typography";
 
 const Albumspage = () => {
   return (
-    <div className="horizontal_grid_container">
-      <div className="horizontal_grid_container_item">
-        <Typography name="Trends" />
-        <Slider albums={albums} id_slider={"slider_Trends_albumspage"} />
+    <>
+      <Typography name="Albums" className="display_titles_pages" />
+      <div className="horizontal_grid_container">
+        <div className="horizontal_grid_container_item">
+          <Typography name="Trends" className={"display_h1"} />
+          <Slider albums={albums} id_slider={"slider_Trends_albumspage"} />
+        </div>
+        <div className="horizontal_grid_container_item">
+          <Typography name="RAP" className={"display_h1"} />
+          <Slider albums={albums} id_slider={"slider_RAP_albumspage"} />
+        </div>
+        <div className="horizontal_grid_container_item">
+          <Typography name="JAZZ" className={"display_h1"} />
+          <Slider albums={albums} id_slider={"slider_JAZZ_albumspage"} />
+        </div>
       </div>
-      <div className="horizontal_grid_container_item">
-        <Typography name="RAP" />
-        <Slider albums={albums} id_slider={"slider_RAP_albumspage"} />
-      </div>
-      <div className="horizontal_grid_container_item">
-        <Typography name="JAZZ" />
-        <Slider albums={albums} id_slider={"slider_RAP_albumspage"} />
-      </div>
-    </div>
+    </>
   );
 };
 

@@ -29,9 +29,6 @@ const Homepage = () => {
           <ChartPopularArtist artists={artists} />
         </div>
       </div>
-      <div>
-        <ChartAlbums albums={albums} />
-      </div>
     </>
   );
 };

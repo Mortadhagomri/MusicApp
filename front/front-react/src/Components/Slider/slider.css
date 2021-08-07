@@ -15,6 +15,7 @@
 .slider_items {
   width: 100%;
   display: flex;
+  transition: transform 0.2s ease-in;
 }
 .slider_arrow {
 }

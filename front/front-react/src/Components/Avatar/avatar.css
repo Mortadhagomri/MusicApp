@@ -1,6 +1,6 @@
 .avatar_container {
-  display: flex;
-  align-items: center;
+  margin: 0 auto;
+  height: max-content;
 }
 .small_avatar {
   height: 5rem;
@@ -9,6 +9,12 @@
 .medium_avatar {
   height: 15rem;
   width: 15rem;
+  border-radius: 50%;
+}
+.extra_medium_avatar {
+  margin: 0 2rem;
+  height: 20rem;
+  width: 20rem;
   border-radius: 50%;
 }
 .L_avatar {
