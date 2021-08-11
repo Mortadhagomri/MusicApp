@@ -102,10 +102,9 @@
 /* horizontal grid system  */
 .horizontal_grid_container {
   max-width: 100%;
-  /* padding: 2rem; */
   display: grid;
   grid-template-rows: min-content;
-  grid-row-gap: 4rem;
+  grid-row-gap: 2rem;
 }
 .horizontal_grid_container_item {
   min-width: 100%;
@@ -148,3 +147,13 @@
 }
 
 /* end artistpage */
+
+/* playlist pages */
+.info_container {
+  padding: 5rem;
+  padding-bottom: 2rem;
+  display: flex;
+}
+.info_container_titles {
+  align-self: flex-end;
+}

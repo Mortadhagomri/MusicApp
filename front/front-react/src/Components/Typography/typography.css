@@ -3,6 +3,7 @@
   margin: 0 3rem;
   font-size: 4.5rem;
   font-weight: 700;
+  align-self: center;
 }
 .display_artistname {
   display: block;

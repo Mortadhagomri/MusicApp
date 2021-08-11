@@ -17,7 +17,9 @@
   width: 20rem;
   border-radius: 50%;
 }
-.L_avatar {
+.Square_avatar {
+  height: 20rem;
+  width: 20rem;
 }
 .Xl_avatar {
 }

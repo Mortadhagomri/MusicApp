@@ -1,0 +1,65 @@
+.listsongs_container {
+  max-width: 100%;
+  height: max-content;
+  margin: 5rem;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+th {
+  height: 3rem;
+  text-align: left;
+  font-size: 1.5rem;
+  border-bottom: 0.1rem solid white;
+}
+tr {
+  font-size: 1.5rem;
+}
+td {
+  text-align: left;
+  height: 5rem;
+}
+/* table header */
+.track_index_th {
+  width: 2%;
+}
+.track_title_th {
+  width: auto;
+}
+.track_album_th {
+  width: 20%;
+}
+.track_action_th {
+  text-align: center;
+  width: 10%;
+}
+
+/* row items */
+.track_index_td {
+}
+.track_info_td {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.track_info_td img {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.5rem;
+  margin-right: 2rem;
+}
+.track_album_td {
+}
+.track_action_td {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

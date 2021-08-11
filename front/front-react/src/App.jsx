@@ -1,20 +1,20 @@
 import React from "react";
 import "./App.css";
-import Dashboard from "./Components/Dashboard/Dashboard";
+import Dashboard from "./Components/ChartGenre/Dashboard/Dashboard";
 import Headbar from "./Components/Headbar/Headbar";
 import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
 
 // pages
-// import Albumspage from "./Pages/Albumspage";
 import Homepage from "./Pages/Homepage";
+import Albumspage from "./Pages/Albumspage";
+import Artistspage from "./Pages/Artistspage";
+import RecentlyPlayedpage from "./Pages/RecentlyPlayedpage";
 
 // fake data dash
 import {
   userDefaultIdentif,
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
-import Albumspage from "./Pages/Albumspage";
-import Artistspage from "./Pages/Artistspage";
 
 const App = () => {
   return (
@@ -30,7 +30,8 @@ const App = () => {
         <div class="main">
           {/* <Homepage /> */}
           {/* <Albumspage /> */}
-          <Artistspage />
+          {/* <Artistspage /> */}
+          <RecentlyPlayedpage />
         </div>
         <div class="footer">
           <MediaPlayer />
