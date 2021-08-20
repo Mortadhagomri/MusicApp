@@ -27,7 +27,7 @@ const Artistspage = () => {
         className="seemore"
         id="seemore"
         onClick={() => {
-          document.getElementById("artists").style.height = "100%";
+          // document.getElementById("artists").style.height = "100%";
           document.getElementById("seemore").style.visibility = "hidden";
         }}
       >

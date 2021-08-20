@@ -15,6 +15,7 @@ import {
   userDefaultIdentif,
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
+import FavorisPage from "./Pages/FavorisPage";
 
 const App = () => {
   return (
@@ -31,7 +32,8 @@ const App = () => {
           {/* <Homepage /> */}
           {/* <Albumspage /> */}
           {/* <Artistspage /> */}
-          <RecentlyPlayedpage />
+          <FavorisPage />
+          {/* <RecentlyPlayedpage /> */}
         </div>
         <div class="footer">
           <MediaPlayer />

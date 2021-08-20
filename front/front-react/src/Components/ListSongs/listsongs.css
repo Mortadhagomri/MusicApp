@@ -1,12 +1,12 @@
 .listsongs_container {
   max-width: 100%;
   height: max-content;
-  margin: 5rem;
+  margin: 4rem;
   margin-top: 0;
 }
 
 table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   background: transparent;
   border-radius: 6px;
@@ -22,7 +22,12 @@ th {
 }
 tr {
   font-size: 1.5rem;
+  height: 6rem;
 }
+tr:hover {
+  background-color: #00000056;
+}
+
 td {
   text-align: left;
   height: 5rem;
@@ -43,6 +48,7 @@ td {
 }
 
 /* row items */
+
 .track_index_td {
 }
 .track_info_td {

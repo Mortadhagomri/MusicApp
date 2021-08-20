@@ -3,13 +3,13 @@ import ChartInfoPage from "../Components/ChartInfo/ChartInfoPage";
 import ListSongs from "../Components/ListSongs/ListSongs";
 import { playlistTracks } from "../Constant/Tracks/fakedataplaylist";
 
-const RecentlyPlayedpage = () => {
+const FavorisPage = () => {
   return (
     <>
       <div className="horizontal_grid_container">
         <div className="horizontal_grid_container_item">
           <ChartInfoPage
-            title="Recently Played"
+            title="Favoris"
             classNameTitle="display_h1"
             subtitle="username"
             classNameSubtitle="display_username"
@@ -23,4 +23,4 @@ const RecentlyPlayedpage = () => {
   );
 };
 
-export default RecentlyPlayedpage;
+export default FavorisPage;

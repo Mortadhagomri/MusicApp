@@ -1,0 +1,15 @@
+.info_container {
+  margin: 0 10rem;
+  display: flex;
+}
+.info_container_image {
+  width: max-content;
+  border-radius: 2rem;
+}
+
+.info_container_titles {
+  align-self: flex-end;
+  width: 50%;
+  margin-left: 2rem;
+  line-height: 5.5rem;
+}

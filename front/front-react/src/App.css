@@ -101,15 +101,15 @@
 
 /* horizontal grid system  */
 .horizontal_grid_container {
+  margin: 4rem 0;
   max-width: 100%;
   display: grid;
   grid-template-rows: min-content;
-  grid-row-gap: 2rem;
+  grid-row-gap: 3rem;
 }
 .horizontal_grid_container_item {
   min-width: 100%;
   height: max-cotent;
-  /* background-color: #00000056; */
 }
 
 /* artists_page */
@@ -118,12 +118,10 @@
 .artists_container {
   position: relative;
   max-width: 100%;
-  height: 37.5%;
-  margin: 1rem;
-  padding: 2rem;
+  max-height: 100%;
   overflow-y: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   flex: 1 1;
 }
@@ -131,8 +129,7 @@
   width: 0;
 }
 .artist_item_info {
-  max-height: max-content;
-  margin: auto;
+  margin: 2rem 5rem;
 }
 .seemore {
   font-family: "Style Script", cursive;
@@ -147,13 +144,3 @@
 }
 
 /* end artistpage */
-
-/* playlist pages */
-.info_container {
-  padding: 5rem;
-  padding-bottom: 2rem;
-  display: flex;
-}
-.info_container_titles {
-  align-self: flex-end;
-}
