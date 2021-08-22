@@ -1,22 +1,18 @@
 import React from "react";
 import "./App.css";
-import Dashboard from "./Components/ChartGenre/Dashboard/Dashboard";
+
+import { Route, Switch } from "react-router-dom";
+
+import Dashboard from "./Components/Dashboard/Dashboard";
 import Headbar from "./Components/Headbar/Headbar";
 import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
-
-// pages
-import Homepage from "./Pages/Homepage";
-import Albumspage from "./Pages/Albumspage";
-import Artistspage from "./Pages/Artistspage";
-import RecentlyPlayedpage from "./Pages/RecentlyPlayedpage";
 
 // fake data dash
 import {
   userDefaultIdentif,
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
-import FavorisPage from "./Pages/FavorisPage";
-
+import { UserRoutes } from "./Constant/routes";
 const App = () => {
   return (
     <div className="App">
@@ -29,11 +25,13 @@ const App = () => {
           <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
         </div>
         <div class="main">
-          {/* <Homepage /> */}
-          {/* <Albumspage /> */}
-          {/* <Artistspage /> */}
-          <FavorisPage />
-          {/* <RecentlyPlayedpage /> */}
+          <Switch>
+            {UserRoutes.map((route, index) => (
+              <Route key={index} path={route.path} exact>
+                <route.component />
+              </Route>
+            ))}
+          </Switch>
         </div>
         <div class="footer">
           <MediaPlayer />

@@ -9,7 +9,7 @@ import RecentIcon from "../../Assets/svgs/RecentIcon";
 
 
 
-const userDefaultUrl = "/#";
+const userDefaultUrl = "/user";
 export const userDefaultIdentif = "discovery";
 
 export const userDash = [
@@ -17,55 +17,55 @@ export const userDash = [
         Icon: DiscoveryIcon,
         identif: "discovery",
         name: "Discovery",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/discovery`
     },
     {
         Icon: AlbumIcon,
         identif: "albums",
         name: "Albums",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/albums`
     },
     {
         Icon: ArtistIcon,
         identif: "artists",
         name: "Artists",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/artists`
     },
     {
         Icon: GenreIcon,
         identif: "genre",
         name: "Genre",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/genres`
     },
     {
         Icon: PlaylistIcon,
         identif: "playlist",
         name: "Playlists",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/my-playlists`
     },
     {
         Icon: FavorisIcon,
         identif: "favoris",
         name: "Favoris",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/favoris`
     },
     {
         Icon: RecentIcon,
         identif: "recentlyplayed",
         name: "Recently Played",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/Recently-played`
     },
     {
         Icon: PlaylistIcon,
         identif: "playlist",
         name: "Playlist 1",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/Myplaylists/:id`
     },
     {
         Icon: PlaylistIcon,
         identif: "playlist",
         name: "Playlist 2",
-        url: `${userDefaultUrl}`
+        url: `${userDefaultUrl}/Myplaylists/:id`
     },
     {
         Icon: PlaylistIcon,
@@ -83,36 +83,6 @@ export const userDash = [
         Icon: PlaylistIcon,
         identif: "playlist",
         name: "Playlist 5",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlist 6",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlists",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlists",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlists",
-        url: `${userDefaultUrl}`
-    },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlists",
         url: `${userDefaultUrl}`
     }
 
