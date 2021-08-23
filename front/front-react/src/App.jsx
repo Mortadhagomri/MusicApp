@@ -3,16 +3,17 @@ import "./App.css";
 
 import { Route, Switch } from "react-router-dom";
 
-import Dashboard from "./Components/Dashboard/Dashboard";
-import Headbar from "./Components/Headbar/Headbar";
-import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
-
 // fake data dash
 import {
   userDefaultIdentif,
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
 import { UserRoutes } from "./Constant/routes";
+
+import Dashboard from "./Components/Dashboard/Dashboard";
+import Headbar from "./Components/Headbar/Headbar";
+import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
+
 const App = () => {
   return (
     <div className="App">

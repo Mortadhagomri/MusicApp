@@ -1,16 +1,16 @@
 import React from "react";
 
 // fake data
-import { albums } from "../Components/ChartAlbums/fakedataAlbums";
-import { Tracks } from "../Components/ChartTracks/fakedataTracks";
-import { genres } from "../Components/ChartGenre/fakedatagenre";
-import { artists } from "../Components/ChartPopularArtist/fakedatapopularartist";
+import { albums } from "../../Constant/Albums/fakedataAlbums";
+import { Tracks } from "../../Constant/Tracks/fakedataTracks";
+import { genres } from "../../Constant/Genres/fakedatagenre";
+import { artists } from "../../Constant/Artists/fakedatapopularartist";
 
 // components
-import ChartAlbums from "../Components/ChartAlbums/ChartAlbums";
-import ChartTracks from "../Components/ChartTracks/ChartTracks";
-import ChartGenre from "../Components/ChartGenre/ChartGenre";
-import ChartPopularArtist from "../Components/ChartPopularArtist/ChartPopularArtist";
+import ChartAlbums from "../../Components/ChartAlbums/ChartAlbums";
+import ChartTracks from "../../Components/ChartTracks/ChartTracks";
+import ChartGenre from "../../Components/ChartGenre/ChartGenre";
+import ChartPopularArtist from "../../Components/ChartPopularArtist/ChartPopularArtist";
 
 const Homepage = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import ChartInfoPage from "../Components/ChartInfo/ChartInfoPage";
-import ListSongs from "../Components/ListSongs/ListSongs";
-import { playlistTracks } from "../Constant/Tracks/fakedataplaylist";
+import ChartInfoPage from "../../Components/ChartInfo/ChartInfoPage";
+import ListSongs from "../../Components/ListSongs/ListSongs";
+import { playlistTracks } from "../../Constant/Tracks/fakedataplaylist";
 
 const RecentlyPlayedpage = () => {
   return (

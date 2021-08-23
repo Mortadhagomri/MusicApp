@@ -1,8 +1,8 @@
 import React from "react";
-import AvatarImg from "../Components/Avatar/Avatar";
-import Typography from "../Components/Typography/Typography";
+import AvatarImg from "../../Components/Avatar/Avatar";
+import Typography from "../../Components/Typography/Typography";
 
-import { allartists } from "../Constant/Artists/fakedataAllArtists";
+import { allartists } from "../../Constant/Artists/fakedataAllArtists";
 
 const Artistspage = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import { albums } from "../Components/ChartAlbums/fakedataAlbums";
-import Slider from "../Components/Slider/Slider";
-import Typography from "../Components/Typography/Typography";
+import { albums } from "../../Constant/Albums/fakedataAlbums";
+import Slider from "../../Components/Slider/Slider";
+import Typography from "../../Components/Typography/Typography";
 
 const Albumspage = () => {
   return (

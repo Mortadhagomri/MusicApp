@@ -7,15 +7,13 @@
   text-align: left;
 }
 .display_albumspage_title {
+  font-family: "Style Script", cursive;
   display: block;
-  font-size: 5rem;
-  margin: 0 10rem;
-  margin-bottom: 3rem;
-  font-weight: 700;
+  font-size: 2.7rem;
+  font-weight: 750;
   align-self: center;
-  text-align: center;
-  /* color: #c6439a; */
-  border-bottom: 2px solid #c6439a;
+  text-align: left;
+  border-bottom: 1px solid #c6439a;
 }
 /* 00000056 */
 .display_artistname {
@@ -37,9 +35,7 @@
 .display_titles_pages {
   font-family: "Style Script", cursive;
   display: block;
-  margin: 2rem 3rem;
-  margin-bottom: 0;
-  text-align: left;
+  text-align: center;
   font-size: 6rem;
   font-weight: 700;
   color: #c6439a;

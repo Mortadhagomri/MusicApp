@@ -33,7 +33,7 @@
 }
 .dashboard__item {
   margin-left: 1rem;
-  padding: 1rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .dashboard__link {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: currentColor;
 }
