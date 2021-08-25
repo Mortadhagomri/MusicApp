@@ -1,14 +1,13 @@
 .container-song {
   position: relative;
-  padding: 0 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 65px;
+  height: 55px;
   border-radius: 8px;
   margin: 2px 0px;
-  background: linear-gradient(to left, #e21cb5, #5fa8f2);
+  background: linear-gradient(to left, #bb4093, #131720);
 }
 .container-song__info {
   display: flex;

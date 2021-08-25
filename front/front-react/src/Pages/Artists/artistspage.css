@@ -1,0 +1,51 @@
+/* one single page */
+.single_artist_page_info_container {
+  display: flex;
+  height: 25rem;
+  margin-bottom: 5rem;
+  background: linear-gradient(to top, #131720, #1d2434);
+  box-shadow: 0 5px 10px #0b0f16;
+}
+.single_artist_page_info_image {
+  margin-left: 5rem;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 2rem;
+  align-self: flex-end;
+}
+.single_artist_page_info_image img {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.single_artist_page_info_titles {
+  align-self: flex-end;
+  flex: 1;
+  width: 50%;
+  margin-left: 2rem;
+  line-height: 5.5rem;
+}
+.single_artist_page_popular_listsong {
+  padding: 0 4rem;
+}
+.btn_follow {
+  width: 10rem;
+  height: 4rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 1px solid #bb4092;
+  border-radius: 3rem;
+  align-self: flex-end;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn_follow:hover {
+  transition: all 0.4s;
+  background-color: #bb4092;
+}

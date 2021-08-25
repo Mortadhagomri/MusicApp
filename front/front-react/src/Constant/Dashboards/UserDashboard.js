@@ -37,12 +37,7 @@ export const userDash = [
         name: "Genre",
         url: `${userDefaultUrl}/genres`
     },
-    {
-        Icon: PlaylistIcon,
-        identif: "playlist",
-        name: "Playlists",
-        url: `${userDefaultUrl}/my-playlists`
-    },
+
     {
         Icon: FavorisIcon,
         identif: "favoris",
@@ -54,6 +49,12 @@ export const userDash = [
         identif: "recentlyplayed",
         name: "Recently Played",
         url: `${userDefaultUrl}/Recently-played`
+    },
+    {
+        Icon: PlaylistIcon,
+        identif: "playlist",
+        name: "Playlists",
+        url: `${userDefaultUrl}/my-playlists`
     },
     {
         Icon: PlaylistIcon,

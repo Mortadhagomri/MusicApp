@@ -1,0 +1,38 @@
+.genres_container {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  grid-column-gap: 6rem;
+}
+
+.card_genre {
+  min-width: 18rem;
+  min-height: 18rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #bb4093;
+  box-shadow: -10px 10px 7px #0b0f16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card_genre:hover {
+  transition: all 0.4s;
+  transform: translate(5px, -10px);
+  background-color: #bb40923f;
+}
+.name_genre {
+  font-size: 3rem;
+}
+
+/* one single page */
+.genre_info_container {
+  height: 20rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background: linear-gradient(to top, #bb4092, #1d2434);
+  box-shadow: 0px 1px 1rem #bb4092;
+}

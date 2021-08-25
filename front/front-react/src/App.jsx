@@ -13,6 +13,11 @@ import { UserRoutes } from "./Constant/routes";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Headbar from "./Components/Headbar/Headbar";
 import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
+import OneSingleGenrePage from "./Pages/Genres/OneSingleGenrePage";
+
+import { genres } from "./Constant/Genres/fakedatagenre";
+import OneSingleArtistPage from "./Pages/Artists/OneSingleArtistPage";
+import { allartists } from "./Constant/Artists/fakedataAllArtists";
 
 const App = () => {
   return (
@@ -26,13 +31,15 @@ const App = () => {
           <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
         </div>
         <div class="main">
-          <Switch>
+          {/* <Switch>
             {UserRoutes.map((route, index) => (
               <Route key={index} path={route.path} exact>
                 <route.component />
               </Route>
             ))}
-          </Switch>
+          </Switch> */}
+          {/* <OneSingleGenrePage genre={genres[4]} /> */}
+          <OneSingleArtistPage artist={allartists[1]} />
         </div>
         <div class="footer">
           <MediaPlayer />

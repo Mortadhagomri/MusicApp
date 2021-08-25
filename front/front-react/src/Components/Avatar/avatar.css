@@ -1,6 +1,7 @@
 .avatar_container {
   margin: 0 auto;
   height: max-content;
+  align-self: center;
 }
 .small_avatar {
   height: 5rem;
@@ -12,9 +13,8 @@
   border-radius: 50%;
 }
 .extra_medium_avatar {
-  margin: 0 2rem;
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
 }
 .Square_avatar {

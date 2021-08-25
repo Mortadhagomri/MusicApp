@@ -1,6 +1,5 @@
 .headbar {
   display: flex;
-  padding: 1rem 5rem;
   justify-content: space-between;
   height: 100%;
 }
