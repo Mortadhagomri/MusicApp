@@ -8,7 +8,7 @@ import {
   userDefaultIdentif,
   userDash,
 } from "./Constant/Dashboards/UserDashboard.js";
-import { UserRoutes } from "./Constant/routes";
+import { SinglepageRoutes, UserRoutes } from "./Constant/routes";
 
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Headbar from "./Components/Headbar/Headbar";
@@ -31,15 +31,26 @@ const App = () => {
           <Dashboard dashboard={userDash} DefaultIdentif={userDefaultIdentif} />
         </div>
         <div class="main">
-          {/* <Switch>
-            {UserRoutes.map((route, index) => (
-              <Route key={index} path={route.path} exact>
-                <route.component />
-              </Route>
-            ))}
-          </Switch> */}
+          <Switch>
+            {UserRoutes.map((route, index) => {
+              if (route.path === "/user/genres/:id") {
+                return (
+                  <Route key={index} path={route.path} exact>
+                    <route.component genre={genres[4]} />
+                  </Route>
+                );
+              } else {
+                return (
+                  <Route key={index} path={route.path} exact>
+                    <route.component />
+                  </Route>
+                );
+              }
+            })}
+          </Switch>
+
           {/* <OneSingleGenrePage genre={genres[4]} /> */}
-          <OneSingleArtistPage artist={allartists[1]} />
+          {/* <OneSingleArtistPage artist={allartists[1]} /> */}
         </div>
         <div class="footer">
           <MediaPlayer />

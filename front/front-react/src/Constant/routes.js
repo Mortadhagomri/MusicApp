@@ -5,6 +5,7 @@ import Homepage from "../Pages/Home/Homepage";
 import RecentlyPlayedpage from "../Pages/Playlists/RecentlyPlayedpage";
 import Genrespage from "../Pages/Genres/GenresPage";
 import OneSingleArtistPage from "../Pages/Artists/OneSingleArtistPage";
+import OneSingleGenrePage from "../Pages/Genres/OneSingleGenrePage";
 
 const userPath = "/user";
 
@@ -23,10 +24,6 @@ export const UserRoutes = [
         component: Artistspage
     },
     {
-        path: `${userPath}/artists/:id`,
-        component: OneSingleArtistPage
-    },
-    {
         path: `${userPath}/genres`,
         component: Genrespage
     },
@@ -35,7 +32,22 @@ export const UserRoutes = [
         component: RecentlyPlayedpage
     },
     {
+        path: `${userPath}/genres/:id`,
+        component: OneSingleGenrePage
+    },
+    {
         path: `${userPath}/favoris`,
         component: FavorisPage
     }
+];
+
+export const SinglepageRoutes = [
+    {
+        path: `${userPath}/artists/:id`,
+        component: OneSingleArtistPage
+    },
+    {
+        path: `${userPath}/genres/:id`,
+        component: OneSingleGenrePage
+    },
 ];
