@@ -1,7 +1,7 @@
 import React from "react";
 import "./audioplayericons.css";
 
-const PauseIcon = () => {
+const PauseIcon = ({ handleClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -9,6 +9,7 @@ const PauseIcon = () => {
       height="47"
       viewBox="0 0 47 47"
       className="mediaplayer_icons pause_icon"
+      onClick={handleClick}
     >
       <defs>
         <linearGradient

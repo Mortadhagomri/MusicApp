@@ -1,4 +1,5 @@
-import React from "react";
+import { useContext, useEffect } from "react";
+import { AudioContext } from "../../context/AudioContext";
 import VolumeUpIcon from "../../Assets/svgs/AudioPlayerIcons/VolumeUpIcon";
 import Audioplayer from "./Audioplayer";
 import "./mediaplayer.css";
@@ -24,26 +25,23 @@ const Tracks = [
 ];
 
 const MediaPlayer = () => {
+  const { track } = useContext(AudioContext);
+
   return (
     <div className="mediaplayer_container">
       <div className="mediaplayer_artist_info">
         <img
-          src={Tracks[1].imgalbum}
+          src={track.imgalbum}
           alt="artiste_image"
           className="mediaplayer_artist_img"
         />
         <div className="mediaplayer_song_info">
-          <h4>Title of song</h4>
-          <p>Artist</p>
+          <h4>{track.title}</h4>
+          <p>{track.artist}</p>
         </div>
       </div>
       <div className="media_player_songcontrols">
-        <Audioplayer />
-        <div className="mediaplayer_progressbar">
-          <span>0:00</span>
-          <progress max="100" value="50"></progress>
-          <span>3:40</span>
-        </div>
+        <Audioplayer preview={track.preview} />
       </div>
       <div className="mediaplayer_volumecontrols">
         <VolumeUpIcon />
