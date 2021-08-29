@@ -16,16 +16,16 @@ const Homepage = () => {
   return (
     <>
       <div className="vertical_grid_container">
-        <div class="vertical_grid_container_item">
+        <div className="vertical_grid_container_item">
           <ChartAlbums albums={albums} />
         </div>
-        <div class="vertical_grid_container_item">
+        <div className="vertical_grid_container_item">
           <ChartTracks tracks={Tracks} />
         </div>
-        <div class="vertical_grid_container_item">
+        <div className="vertical_grid_container_item">
           <ChartGenre genres={genres} />
         </div>
-        <div class="vertical_grid_container_item">
+        <div className="vertical_grid_container_item">
           <ChartPopularArtist artists={artists} />
         </div>
       </div>

@@ -29,7 +29,7 @@ const NextIcon = () => {
           transform="translate(13.066 0.314)"
           fill="none"
           stroke="#ca0097"
-          stroke-width="2"
+          strokeWidth="2"
         />
       </g>
     </svg>

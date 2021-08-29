@@ -19,8 +19,8 @@ const PauseIcon = ({ handleClick }) => {
           y2="0.5"
           gradientUnits="objectBoundingBox"
         >
-          <stop offset="0" stop-color="#4bbdfd" />
-          <stop offset="1" stop-color="#e717b3" />
+          <stop offset="0" stopColor="#4bbdfd" />
+          <stop offset="1" stopColor="#e717b3" />
         </linearGradient>
       </defs>
       <g id="Groupe_7" data-name="Groupe 7" transform="translate(-0.219)">
@@ -40,8 +40,8 @@ const PauseIcon = ({ handleClick }) => {
           transform="translate(28.194 12.083)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeWidth="3"
         />
         <line
           id="Ligne_14"
@@ -50,8 +50,8 @@ const PauseIcon = ({ handleClick }) => {
           transform="translate(18.987 12.083)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeWidth="3"
         />
       </g>
     </svg>

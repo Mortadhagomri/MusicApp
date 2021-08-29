@@ -25,7 +25,7 @@ const PreviousIcon = () => {
           transform="translate(1 0.314)"
           fill="none"
           stroke="#1192da"
-          stroke-width="2"
+          strokeWidth="2"
         />
       </g>
     </svg>

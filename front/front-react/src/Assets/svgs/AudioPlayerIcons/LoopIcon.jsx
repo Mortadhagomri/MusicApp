@@ -36,7 +36,7 @@ const LoopIcon = () => {
             id="Groupe_4157"
             data-name="Groupe 4157"
             transform="translate(0 0)"
-            clip-path="url(#clip-path)"
+            clipPath="url(#clip-path)"
           >
             <path
               id="Tracé_10824"

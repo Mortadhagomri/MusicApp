@@ -21,8 +21,8 @@ const PlaylistIcon = ({ className }) => {
           transform="translate(7.632)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeWidth="2"
         />
         <line
           id="Ligne_36"
@@ -31,8 +31,8 @@ const PlaylistIcon = ({ className }) => {
           transform="translate(0 7)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeWidth="2"
         />
         <line
           id="Ligne_37"
@@ -41,8 +41,8 @@ const PlaylistIcon = ({ className }) => {
           transform="translate(0 14)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeWidth="2"
         />
       </g>
     </svg>

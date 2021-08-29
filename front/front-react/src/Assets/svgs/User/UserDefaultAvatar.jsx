@@ -16,8 +16,8 @@ const UserDefaultAvatar = () => {
           y2="0.5"
           gradientUnits="objectBoundingBox"
         >
-          <stop offset="0" stop-color="#4bbdfd" />
-          <stop offset="1" stop-color="#e717b3" />
+          <stop offset="0" stopColor="#4bbdfd" />
+          <stop offset="1" stopColor="#e717b3" />
         </linearGradient>
       </defs>
       <g

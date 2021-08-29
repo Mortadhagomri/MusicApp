@@ -21,7 +21,7 @@ const ReverseIcon = () => {
           d="M35.957,71.378,33.23,68.651a.682.682,0,0,0-.964.964l1.564,1.564H30.021a4.778,4.778,0,0,0-4.773,4.773,3.413,3.413,0,0,1-3.409,3.409H17.749a.682.682,0,0,0,0,1.364H21.84a4.778,4.778,0,0,0,4.773-4.773,3.413,3.413,0,0,1,3.409-3.409H33.83l-1.563,1.563a.682.682,0,1,0,.947.981l.017-.017,2.727-2.727a.682.682,0,0,0,0-.964h0Z"
           fill="#1192da"
           stroke="#1192da"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Tracé_10826"
@@ -30,7 +30,7 @@ const ReverseIcon = () => {
           transform="translate(-229.484 -196.618)"
           fill="#1192da"
           stroke="#1192da"
-          stroke-width="1"
+          strokeWidth="1"
         />
         <path
           id="Tracé_10827"
@@ -39,7 +39,7 @@ const ReverseIcon = () => {
           transform="translate(0 -65.354)"
           fill="#1192da"
           stroke="#1192da"
-          stroke-width="1"
+          strokeWidth="1"
         />
       </g>
     </svg>

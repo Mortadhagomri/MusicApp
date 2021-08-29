@@ -22,10 +22,10 @@ const VolumeUpIcon = () => {
           transform="translate(0 0.3)"
           fill="#fff"
           stroke="#200e32"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
         />
         <path
           id="Stroke_3"
@@ -34,10 +34,10 @@ const VolumeUpIcon = () => {
           transform="translate(17.836 3.678)"
           fill="#fff"
           stroke="#200e32"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
         />
         <path
           id="Stroke_5"
@@ -46,10 +46,10 @@ const VolumeUpIcon = () => {
           transform="translate(21.959 0)"
           fill="#fff"
           stroke="#200e32"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="1.5"
         />
       </g>
     </svg>

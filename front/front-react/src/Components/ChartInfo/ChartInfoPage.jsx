@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import UserDefaultAvatar from "../../Assets/svgs/User/UserDefaultAvatar";
 import Typography from "../Typography/Typography";

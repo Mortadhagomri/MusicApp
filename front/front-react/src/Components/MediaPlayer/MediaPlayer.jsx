@@ -1,28 +1,28 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { AudioContext } from "../../context/AudioContext";
 import VolumeUpIcon from "../../Assets/svgs/AudioPlayerIcons/VolumeUpIcon";
 import Audioplayer from "./Audioplayer";
 import "./mediaplayer.css";
 
-const Tracks = [
-  {
-    title: "Blue Pill",
-    album: "blabla",
-    artist: "foulen",
-    duration: "3:40",
-    imgalbum:
-      "https://images.genius.com/3730b6d3bdf523e825fb9fcf82c80c91.1000x1000x1.jpg",
-    preview: "/4LFA - BLUE PILL.mp3",
-  },
-  {
-    title: "Blue Pill",
-    album: "blabla",
-    artist: "foulen",
-    duration: "3:40",
-    imgalbum: "https://covers4.hosting-media.net/jpg343/u3616409637395.jpg",
-    preview: "/4LFA - BLUE PILL.mp3",
-  },
-];
+// const Tracks = [
+//   {
+//     title: "Blue Pill",
+//     album: "blabla",
+//     artist: "foulen",
+//     duration: "3:40",
+//     imgalbum:
+//       "https://images.genius.com/3730b6d3bdf523e825fb9fcf82c80c91.1000x1000x1.jpg",
+//     preview: "/4LFA - BLUE PILL.mp3",
+//   },
+//   {
+//     title: "Blue Pill",
+//     album: "blabla",
+//     artist: "foulen",
+//     duration: "3:40",
+//     imgalbum: "https://covers4.hosting-media.net/jpg343/u3616409637395.jpg",
+//     preview: "/4LFA - BLUE PILL.mp3",
+//   },
+// ];
 
 const MediaPlayer = () => {
   const { track } = useContext(AudioContext);

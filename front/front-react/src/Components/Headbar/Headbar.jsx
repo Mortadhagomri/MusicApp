@@ -5,15 +5,15 @@ import "./headbar.css";
 const Headbar = () => {
   return (
     <div className="headbar" id="headbar">
-      <div class="search__container">
+      <div className="search__container">
         <input
-          class="search__input"
+          className="search__input"
           type="text"
           placeholder="Search for song, events, articles"
         />
       </div>
 
-      <ul class="menu">
+      <ul className="menu">
         <li>
           <a href="#!">Music</a>
         </li>

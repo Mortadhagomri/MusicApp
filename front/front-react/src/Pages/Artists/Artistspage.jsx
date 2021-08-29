@@ -11,8 +11,8 @@ const Artistspage = () => {
       <Typography name="Artists" className="display_titles_pages" />
 
       <div className="artists_container" id="artists">
-        {allartists.map((artist) => (
-          <div className="artist_item_info">
+        {allartists.map((artist, index) => (
+          <div className="artist_item_info" key={index}>
             <AvatarImg
               src={`${artist.image_artist}`}
               className={"extra_medium_avatar"}

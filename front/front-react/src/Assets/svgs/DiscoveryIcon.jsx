@@ -21,8 +21,8 @@ const DiscoveryIcon = ({ className }) => {
           transform="translate(4006.492 7741.5)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeWidth="3"
         />
         <line
           id="Ligne_34"
@@ -32,8 +32,8 @@ const DiscoveryIcon = ({ className }) => {
           transform="translate(4012.484 7741.5)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeWidth="3"
         />
         <line
           id="Ligne_33"
@@ -42,8 +42,8 @@ const DiscoveryIcon = ({ className }) => {
           transform="translate(4000.5 7741.5)"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-width="3"
+          strokeLinecap="round"
+          strokeWidth="3"
         />
       </g>
       <title>Discovery</title>

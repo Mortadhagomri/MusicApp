@@ -48,9 +48,8 @@ const ChartGenre = ({ genres }) => {
         <div className="slider_genre">
           <div className="items_slider_genre" id="carousel-genres">
             {genres.map((genre, index) => (
-              <div className="genre_container">
+              <div className="genre_container" key={index}>
                 <AvatarImg
-                  key={index}
                   className={"medium_avatar"}
                   src={genre.image_genre}
                 />

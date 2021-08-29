@@ -9,13 +9,9 @@ const ChartPopularArtist = ({ artists }) => {
       <h1 className="chartPopularArtists__title"> Popular Artists</h1>
       <div className="container_artists_list">
         {artists.map((artist, index) => (
-          <div className="item_artist">
+          <div className="item_artist" key={index}>
             <div className="artist_info">
-              <AvatarImg
-                key={index}
-                className={"small_avatar"}
-                src={artist.image_artist}
-              />
+              <AvatarImg className={"small_avatar"} src={artist.image_artist} />
               <div className="artist_info_name">
                 <p>{artist.name}</p>
                 <p className="artist_followers">

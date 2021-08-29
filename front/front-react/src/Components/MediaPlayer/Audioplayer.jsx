@@ -18,18 +18,13 @@ const Audioplayer = ({ preview }) => {
   };
 
   useEffect(() => {
-    /*  if (audio) {
-       setAudio({ ...audio, currentTime: audio.currentTime });
-     }
+    /*  if (audio) { setAudio({ ...audio, currentTime: audio.currentTime }); }
      // we will update the time of audio every 800ms*/
     let setTimeInterval;
-
     setTimeInterval = setInterval(() => {
-      setCurrentTime(audio.currentTime);
-
-      // console.log()
+      setCurrentTime(audio?.currentTime);
+      // console.log(audio);
     }, 500);
-
     return () => clearInterval(setTimeInterval);
   }, [audio?.currentTime]);
 
@@ -41,7 +36,7 @@ const Audioplayer = ({ preview }) => {
       <NextIcon />
       <LoopIcon />
       <div className="mediaplayer_progressbar">
-        <span>{parseInt(currentTime)}</span>
+        <span>{parseInt(currentTime).toString()}</span>
         <progress
           max="100"
           value="50"
