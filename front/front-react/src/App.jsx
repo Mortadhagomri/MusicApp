@@ -13,11 +13,9 @@ import { UserRoutes } from "./Constant/routes";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Headbar from "./Components/Headbar/Headbar";
 import MediaPlayer from "./Components/MediaPlayer/MediaPlayer";
-// import OneSingleGenrePage from "./Pages/Genres/OneSingleGenrePage";
 
 import { genres } from "./Constant/Genres/fakedatagenre";
-// import OneSingleArtistPage from "./Pages/Artists/OneSingleArtistPage";
-// import { allartists } from "./Constant/Artists/fakedataAllArtists";
+import { allartists } from "./Constant/Artists/fakedataAllArtists";
 
 const App = () => {
   return (
@@ -37,6 +35,12 @@ const App = () => {
                 return (
                   <Route key={index} path={route.path} exact>
                     <route.component genre={genres[4]} />
+                  </Route>
+                );
+              } else if (route.path === "/user/artists/:id") {
+                return (
+                  <Route key={index} path={route.path} exact>
+                    <route.component artist={allartists[1]} />
                   </Route>
                 );
               } else {

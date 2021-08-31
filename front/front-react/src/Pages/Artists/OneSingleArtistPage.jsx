@@ -26,8 +26,8 @@ const OneSingleArtistPage = ({ artist }) => {
         <div className="horizontal_grid_container_item">
           <Typography name="Populaires" className="display_subtitles_pages" />
           <div className="single_artist_page_popular_listsong">
-            {Tracks.map((track) => (
-              <CardSong key={track.id} song={track} />
+            {Tracks.map((track, index) => (
+              <CardSong key={index} song={track} />
             ))}
           </div>
         </div>

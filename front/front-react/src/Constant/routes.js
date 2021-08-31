@@ -20,21 +20,30 @@ export const UserRoutes = [
         component: Albumspage
     },
     {
+        path: `${userPath}/albums/:id`,
+        component: FavorisPage
+    },
+    {
         path: `${userPath}/artists`,
         component: Artistspage
+    },
+    {
+        path: `${userPath}/artists/:id`,
+        component: OneSingleArtistPage
     },
     {
         path: `${userPath}/genres`,
         component: Genrespage
     },
     {
-        path: `${userPath}/Recently-played`,
-        component: RecentlyPlayedpage
-    },
-    {
         path: `${userPath}/genres/:id`,
         component: OneSingleGenrePage
     },
+    {
+        path: `${userPath}/Recently-played`,
+        component: RecentlyPlayedpage
+    },
+
     {
         path: `${userPath}/favoris`,
         component: FavorisPage

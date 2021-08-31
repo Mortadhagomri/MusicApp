@@ -15,11 +15,6 @@ const AudioProvider = ({ children }) => {
         preview: "/4LFA - BLUE PILL.mp3",
 
     });
-
-
-
-
-
     return <AudioContext.Provider value={{ track, setTrack }}>{children}  </AudioContext.Provider>;
 };
 
