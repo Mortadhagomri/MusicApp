@@ -18,8 +18,8 @@
 /* 00000056 */
 .display_artistname {
   display: block;
+  width: 100%;
   margin: 1.5rem 0;
-  margin-top: 0.5rem;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;

@@ -1,0 +1,22 @@
+.artist_card_link {
+  text-decoration: none;
+}
+.artist_card {
+  position: relative;
+  height: 28rem;
+  width: 20rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 1rem;
+  transition: all 0.4s;
+  background-color: #131720;
+}
+.artist_card:hover {
+  background: linear-gradient(to top, #131720, #c6439a33);
+}
+.artist_card:hover .display_artistname {
+  text-decoration: underline #c6439a;
+}

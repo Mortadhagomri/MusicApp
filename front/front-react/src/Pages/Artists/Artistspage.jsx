@@ -5,6 +5,8 @@ import Typography from "../../Components/Typography/Typography";
 
 import { allartists } from "../../Constant/Artists/fakedataAllArtists";
 
+import "./artistspage.css";
+
 const Artistspage = () => {
   return (
     <>
