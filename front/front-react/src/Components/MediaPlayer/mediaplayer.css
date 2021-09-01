@@ -34,10 +34,12 @@
   display: block;
   font-size: 1.5rem;
 }
-.audioplayer_container {
+
+.audioplayer_icons_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* cursor: pointer; */
 }
 .mediaplayer_progressbar {
   display: flex;

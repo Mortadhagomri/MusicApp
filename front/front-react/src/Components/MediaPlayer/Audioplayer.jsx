@@ -2,19 +2,27 @@ import React, { useState, useRef, useEffect } from "react";
 import LoopIcon from "../../Assets/svgs/AudioPlayerIcons/LoopIcon";
 import NextIcon from "../../Assets/svgs/AudioPlayerIcons/NextIcon";
 import PauseIcon from "../../Assets/svgs/AudioPlayerIcons/PauseIcon";
+import PlayIcon from "../../Assets/svgs/AudioPlayerIcons/PlayIcon";
 import PreviousIcon from "../../Assets/svgs/AudioPlayerIcons/PreviousIcon";
 import ReverseIcon from "../../Assets/svgs/AudioPlayerIcons/ReverseIcon";
 import "./mediaplayer.css";
 
 const Audioplayer = ({ preview }) => {
+  const [playing, setPlaying] = useState(false);
+
   const [currentTime, setCurrentTime] = useState(0);
   const ref = useRef();
   const audio = ref.current;
 
   const toggleAudio = () => {
     const audio = ref.current;
-    if (audio.paused) audio.play();
-    else audio.pause();
+    if (audio.paused) {
+      audio.play();
+      setPlaying(!playing);
+    } else {
+      audio.pause();
+      setPlaying(false);
+    }
   };
 
   useEffect(() => {
@@ -29,12 +37,19 @@ const Audioplayer = ({ preview }) => {
   }, [audio?.currentTime]);
 
   return (
-    <div className="audioplayer_container">
-      <ReverseIcon />
-      <PreviousIcon />
-      <PauseIcon handleClick={toggleAudio} />
-      <NextIcon />
-      <LoopIcon />
+    <>
+      <div className="audioplayer_icons_container">
+        <ReverseIcon />
+        <PreviousIcon />
+        {playing ? (
+          <PauseIcon handleClick={toggleAudio} />
+        ) : (
+          <PlayIcon handleClick={toggleAudio} />
+        )}
+        <NextIcon />
+        <LoopIcon />
+      </div>
+
       <div className="mediaplayer_progressbar">
         <span>{parseInt(currentTime).toString()}</span>
         <progress
@@ -42,14 +57,14 @@ const Audioplayer = ({ preview }) => {
           value="50"
           onChange={(e) => console.log(e.currentTarget.value)}
         ></progress>
-        <span>{audio?.duration}</span>
+        <span>{Math.floor(audio?.duration)}</span>
       </div>
       <audio
         src={preview}
         ref={ref}
         onChange={(e) => console.log(e.currentTarget.value)}
       ></audio>
-    </div>
+    </>
   );
 };
 
