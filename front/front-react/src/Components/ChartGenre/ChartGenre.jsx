@@ -4,6 +4,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import AvatarImg from "../Avatar/Avatar";
 import "./chartgenre.css";
 
@@ -48,13 +49,15 @@ const ChartGenre = ({ genres }) => {
         <div className="slider_genre">
           <div className="items_slider_genre" id="carousel-genres">
             {genres.map((genre, index) => (
-              <div className="genre_container" key={index}>
-                <AvatarImg
-                  className={"medium_avatar"}
-                  src={genre.image_genre}
-                />
-                <p className="genre_title">{genre.name}</p>
-              </div>
+              <NavLink to={genre.path_genre} key={index} className="link_genre">
+                <div className="genre_container" key={index}>
+                  <AvatarImg
+                    className={"medium_avatar"}
+                    src={genre.image_genre}
+                  />
+                  <p className="genre_title">{genre.name}</p>
+                </div>
+              </NavLink>
             ))}
           </div>
         </div>

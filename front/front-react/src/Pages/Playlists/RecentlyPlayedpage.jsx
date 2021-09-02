@@ -7,14 +7,12 @@ const RecentlyPlayedpage = () => {
   return (
     <>
       <div className="horizontal_grid_container">
-        <div className="horizontal_grid_container_item">
-          <ChartInfoPage
-            title="Recently Played"
-            classNameTitle="display_h1"
-            subtitle="username"
-            classNameSubtitle="display_username"
-          />
-        </div>
+        <ChartInfoPage
+          title="Recently Played"
+          classNameTitle="display_h1"
+          subtitle="username"
+          classNameSubtitle="display_username"
+        />
         <div className="horizontal_grid_container_item">
           <ListSongs playlistTracks={playlistTracks} />
         </div>

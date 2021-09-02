@@ -6,6 +6,7 @@ import RecentlyPlayedpage from "../Pages/Playlists/RecentlyPlayedpage";
 import Genrespage from "../Pages/Genres/GenresPage";
 import OneSingleArtistPage from "../Pages/Artists/OneSingleArtistPage";
 import OneSingleGenrePage from "../Pages/Genres/OneSingleGenrePage";
+import OneSingleAlbumPage from "../Pages/Albums/OneSingleAlbumPage";
 
 const userPath = "/user";
 
@@ -21,7 +22,7 @@ export const UserRoutes = [
     },
     {
         path: `${userPath}/albums/:id`,
-        component: FavorisPage
+        component: OneSingleAlbumPage
     },
     {
         path: `${userPath}/artists`,
@@ -50,13 +51,4 @@ export const UserRoutes = [
     }
 ];
 
-export const SinglepageRoutes = [
-    {
-        path: `${userPath}/artists/:id`,
-        component: OneSingleArtistPage
-    },
-    {
-        path: `${userPath}/genres/:id`,
-        component: OneSingleGenrePage
-    },
-];
+

@@ -23,7 +23,8 @@ tr {
   height: 6rem;
 }
 tr:hover {
-  background-color: #00000056;
+  /* background-color: #00000056; */
+  background: linear-gradient(to top, #bb40922d, #131720);
 }
 
 td {

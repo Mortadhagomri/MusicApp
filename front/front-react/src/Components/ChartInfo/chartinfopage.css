@@ -1,12 +1,17 @@
 .info_container {
   display: flex;
+  height: 25rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(to top, #131720, #181d28);
+  box-shadow: 0 5px 10px #0b0f16;
 }
 .info_container_image {
   margin-left: 5rem;
-  width: 20rem;
-  height: 20rem;
+  width: 24rem;
+  height: 24rem;
   background: linear-gradient(to left, #e21cb5, #51bbfa);
   border-radius: 2rem;
+  align-self: flex-end;
 }
 
 .info_container_titles {

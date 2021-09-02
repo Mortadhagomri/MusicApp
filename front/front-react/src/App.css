@@ -85,7 +85,7 @@
   grid-template-columns: 1.7fr 1fr;
   grid-template-rows: min-content;
   grid-column-gap: 2rem;
-  /* grid-row-gap: 1rem; */
+  grid-row-gap: 1rem;
 }
 .vertical_grid_container_item {
   min-width: 100%;
@@ -103,7 +103,7 @@
   max-width: 100%;
   display: grid;
   grid-template-rows: min-content;
-  grid-row-gap: 3rem;
+  grid-row-gap: 1rem;
 }
 .horizontal_grid_container_item {
   min-width: 100%;
